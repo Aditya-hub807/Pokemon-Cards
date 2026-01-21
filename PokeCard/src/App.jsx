@@ -6,7 +6,7 @@ function App() {
   const [apiData, setApiData] = useState(null);
   const [search, setSearch] = useState("");
 
-  const url = "https://pokeapi.co/api/v2/pokemon?limit=1200";
+  const url = "https://pokeapi.co/api/v2/pokemon?limit=500";
 
   useEffect(() => {
     const fetchPokemon = async () => {
